@@ -2,7 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-
 main {
-    height: calc(100vh - 4rem);
+	height: calc(100vh - 4rem);
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+
+}
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'lato';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'lato';
+	font-style: normal;
+	font-weight: 700;
+	src: url('fonts/Lato-Bold.ttf') format('truetype');
 }
