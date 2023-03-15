@@ -4,12 +4,11 @@
 	import Nav from './Nav.svelte';
 </script>
 
-<div class="flex flex-col min-h-screen">
-
+<div>
 	<Nav/>
-	<main>
+	<main class="flex flex-col min-h-screen">
 		<slot />
 	</main>
-	<!-- <Footer/> -->
+	<Footer/>
 
 </div>

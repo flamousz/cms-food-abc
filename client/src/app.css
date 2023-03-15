@@ -2,15 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-main {
-	height: calc(100vh - 4rem);
-}
+
 
 @font-face {
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/Montserrat-Light.ttf') format('truetype');
 }
 
 @font-face {
