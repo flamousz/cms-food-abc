@@ -7,8 +7,8 @@
 			<div class="pb-3 text-sm">
 				There are many variations of passages of lorem ipsum available.
 			</div>
-			<div class="bg-white rounded-full lg:w-[88%]">
-				<div class="text-slate-400 lg:px-3 lg:py-2 font-light">Send Message</div>
+			<div class="bg-white rounded-full lg:w-[88%] text-slate-400 lg:px-3 lg:py-2 font-light">
+				<a href="/messages" >Send Message</a>
 			</div>
 		</div>
 		<div class="flex flex-row justify-end">
@@ -16,7 +16,7 @@
 				<div class="text-lg ">Links</div>
 				<div class="flex flex-col text-sm gap-3 pt-5">
 					<a href="/">Our Project</a>
-					<a href="/">About Us</a>
+					<a href="/abouts">About Us</a>
 					<a href="/">Our Service</a>
 					<a href="/">Upcoming Events</a>
 					<a href="/">Volunteer</a>
