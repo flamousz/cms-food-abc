@@ -6,12 +6,11 @@
             <img src="navbar/Logo.png" alt="Champi Logo" class="w-40" />
         </a>
         <div class="flex text-[#1A83E3] text-lg  gap-5 ">
-            <a href="/">Service</a>
-            <a href="/">Products</a>
-            <a href="/">Our Brands</a>
-            <a href="/">Plantation</a>
-            <a href="/">Sustainability</a>
-            <a href="/">Contact Us</a>
+            <a href="/services">Service</a>
+            <a href="/products">Products</a>
+            <a href="/brands">Our Brands</a>
+            <a href="/plantations">Plantation</a>
+            <a href="/abouts">Contact Us</a>
         </div>
     </div>
 </nav>
