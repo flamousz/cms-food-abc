@@ -3,13 +3,13 @@
 </svelte:head>
 
 <section class="w-full">
-	<div class="bg-[#E5E5E580] px-16 ">
+	<div class="bg-[#E5E5E580] sm:px-16 px-5 pb-9 ">
 		<div class="flex flex-col ">
-			<div class="lg:py-20">
+			<div class="sm:py-20 py-5 flex justify-center">
 				<img src="Rectangle 68.jpg" alt="box of vegetables" />
 			</div>
-			<div class="font-lato font-semibold text-[#1A83E3] text-5xl lg:mb-8">Who we are</div>
-			<div class="flex flex-col gap-4 lg:mb-16">
+			<div class="font-lato font-semibold text-[#1A83E3] text-3xl sm:text-5xl text-center sm:text-left sm:mb-8 mb-2">Who we are</div>
+			<div class="flex flex-col gap-2 sm:gap-4 text-sm sm:text-base sm:mb-16">
 				<p>
 					The ABC Group of companies is an Indonesia-based coalition with an integrated business
 					model of covering the entire food value chain of Indonesia. Through its various companies
@@ -32,11 +32,11 @@
 			</div>
 		</div>
 	</div>
-	<div class="px-16 lg:py-28">
-		<div class="flex flex-row justify-between">
-			<div class="flex flex-col gap-7 font-lato font-bold text-2xl lg:w-[50%]">
+	<div class="px-5 sm:px-16 py-9 sm:py-28">
+		<div class="flex flex-col-reverse sm:flex-row justify-between">
+			<div class="flex flex-col  sm:gap-7 font-lato font-bold text-lg sm:text-2xl sm:w-[50%]">
 				<div class="flex flex-col gap-2">
-					<div class="text-[#1A83E3]">OUR MISSION</div>
+					<div class="text-[#1A83E3] text-center sm:text-left">OUR MISSION</div>
 					<div>
 						<p>
 							To create a comprehensive food supply ecosystem that encompasses the entire food value
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 				<div class="flex flex-col gap-2">
-					<div class="text-[#1A83E3]">OUR VISION</div>
+					<div class="text-[#1A83E3] text-center sm:text-left">OUR VISION</div>
 					<div>
 						<p>
 							To capture under-utilized land, social, and human capital to sustainably feed the
@@ -54,8 +54,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="flex justify-end">
-				<img src="Rectangle 69.jpg" alt="wet fruit" class="w-[80%]">
+			<div class="flex justify-center sm:justify-end my-5 sm:my-0">
+				<img src="Rectangle 69.jpg" alt="wet fruit" class="sm:w-[80%]">
 			</div>
 		</div>
 	</div>
