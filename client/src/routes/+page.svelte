@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section class="w-full flex flex-col">
-	<div class=" sm:h-screen bg-[#E5E5E580]">
+	<div class=" sm:h-screen lg:h-auto bg-[#E5E5E580]">
 		<div class="flex flex-col-reverse sm:flex-row px-5 pt-8 sm:px-16 sm:w-screen ">
 			<div class=" sm:w-[50%] sm:pt-10 pb-12 sm:pb-0">
 				<div class="font-lato  text-[#1A83E3] font-bold text-xl sm:text-3xl sm:w-[90%]">
@@ -22,7 +22,7 @@
 				</div>
 			</div>
 			<div class=" sm:mb-14 mb-5 sm:w-[50%]">
-				<img class="sm:h-[72%] pt-3 sm:pt-6 pl-0 sm:pl-24" src="shutterstock_champignon.png" alt="champignon mushroom" />
+				<img class="lg:h-full lg:pl-24 sm:h-[72%] pt-3 sm:pt-6 pl-0 sm:pl-24" src="shutterstock_champignon.png" alt="champignon mushroom" />
 			</div>
 		</div>
 	</div>
@@ -49,7 +49,7 @@
 				</div>
 				<img src="image 14.png" alt="farmer" class="my-4 sm:w-[45%]" />
 			</div>
-			<div class="mt-7 flex flex-col font-Montserrat px-5 font-bold ">
+			<div class="mt-7 flex flex-col font-Montserrat px-5 font-bold  ">
 				<div class=" font-semibold mb-1 text-[#1A83E3] text-lg sm:text-xl sm:mt-12 sm:mb-7">
 					FOOD AND INGREDIENTS PROCESSING
 				</div>
@@ -94,7 +94,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="flex flex-col px-5 my-16  sm:flex-row justify-end sm:my-16">
+			<div class="flex flex-col px-5 my-16  sm:flex-row justify-end sm:my-16 lg:my-48">
 				<div class="sm:w-[50%]">
 					<img src="strawberry-jam.png" alt="strawberry jam" class="sm:w-[100%] mb-4" />
 				</div>
@@ -114,7 +114,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="bg-[#E5E5E580] sm:pb-20 pb-16 py-10">
+		<div class="bg-[#E5E5E580] sm:pb-20 pb-16 py-10 lg:py-20 lg:pb-48">
 			<div class=" px-5 sm:px-16 flex flex-col justify-center items-center">
 				<div class="flex font-lato font-semibold  text-[#1A83E3] text-3xl sm:text-5xl sm:mt-16">Distribution</div>
 				<div class="flex text-lg my-4 sm:text-xl font-Montserrat font-light sm:w-[53%] sm:my-8 text-center">
