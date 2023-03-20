@@ -21,7 +21,7 @@
 	<div class="lg:py-0 py-8 2xl:py-16 lg:px-16 2xl:flex 2xl:justify-center 2xl:items-center">
         <img src="flow-chart.png" alt="flow chart">
     </div>
-    <div class="bg-[#E5E5E580] lg:pb-20 py-10 lg:py-0 2xl:pb-40">
+    <div class="bg-[#E5E5E580] lg:pb-20 py-10 lg:py-10 2xl:pb-40">
         <div class=" px-5 lg:px-16 flex flex-col justify-center items-center">
             <div class="flex font-lato font-semibold  text-[#1A83E3] text-3xl lg:text-5xl lg:mt-16">Distribution</div>
             <div class="flex text-sm lg:text-xl font-Montserrat font-light lg:w-[53%] my-4 lg:my-8 text-center">
@@ -35,7 +35,7 @@
                     <div class="">
                         <img src="image 15.png" alt="processed chili" class="w-[100%] rounded-t-lg" />
                     </div>
-                    <div class="bg-white lg:h-auto 2xl:h-[61%] lg:p-7 p-4">
+                    <div class="bg-white lg:h-[75%] 2xl:h-[61%] lg:p-7 p-4">
                         <div class="font-lato font-bold text-xl lg:text-3xl " >
                             General Trade & Ambient
                         </div>
@@ -54,7 +54,7 @@
                     <div>
                         <img src="image 17.png" alt="processing equipment" class="w-[100%] rounded-t-lg" />
                     </div>
-                    <div class="bg-white lg:h-auto 2xl:h-[61%] lg:p-7 p-4">
+                    <div class="bg-white lg:h-[75%] 2xl:h-[61%] lg:p-7 p-4">
                         <div class="font-lato font-bold text-xl lg:text-3xl ">
                             Cold Chain
                         </div>
@@ -73,7 +73,7 @@
                     <div>
                         <img src="image 20.png " alt="harvesting chili" class="w-[100%] rounded-t-lg" />
                     </div>
-                    <div class="bg-white lg:h-auto 2xl:h-[61%] lg:p-7 p-4">
+                    <div class="bg-white lg:h-[75%] 2xl:h-[61%] lg:p-7 p-4">
                         <div class="font-lato font-bold text-xl lg:text-3xl ">
                             Food Service
                         </div>
