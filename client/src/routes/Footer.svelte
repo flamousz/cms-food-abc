@@ -9,23 +9,23 @@
 
 <MessageModals show={showModal} on:close={handleClose}/>
 
-<footer class=" flex flex-col bg-[#E5E5E580] sm:mt-auto ">
-	<div class="flex flex-col sm:gap-0 gap-10 sm:flex-row p-8 sm:p-0 sm:justify-between sm:items-center sm:px-16 sm:py-8 font-bold text-[#000000B3]">
-		<div class=" sm:w-3/12 w-[50%]">
+<footer class=" flex flex-col bg-[#E5E5E580] lg:mt-auto ">
+	<div class="flex flex-col lg:gap-0 gap-10 lg:flex-row p-8 lg:p-0 lg:justify-between lg:items-center lg:px-16 lg:py-8 font-bold text-[#000000B3]">
+		<div class=" lg:w-3/12 w-[50%]">
 			<a href="/" class="">
-				<img src="navbar/Logo.png" alt="Champi Logo" class="sm:w-40 sm:mb-5 " />
+				<img src="navbar/Logo.png" alt="Champi Logo" class="lg:w-40 lg:mb-5 " />
 			</a>
 			<div class="pb-3 text-sm">
 				There are many variations of passages of lorem ipsum available.
 			</div>
-			<div class="bg-white rounded-full sm:w-[88%] w-[60%]  text-slate-400 sm:px-3 sm:py-2 font-light p-1 sm:p-0 text-center sm:text-left">
+			<div class="bg-white rounded-full lg:w-[88%] w-[60%]  text-slate-400 lg:px-3 lg:py-2 font-light p-1 lg:p-0 text-center lg:text-left">
 				<button on:click={() => {showModal=true}}  >Send Message</button>
 			</div>
 		</div>
-		<div class="flex flex-col sm:flex-row justify-end sm:gap-0 gap-10">
-			<div class="sm:mr-8">
+		<div class="flex flex-col lg:flex-row justify-end lg:gap-0 gap-10">
+			<div class="lg:mr-8">
 				<div class="text-lg ">Links</div>
-				<div class="flex flex-col text-sm sm:gap-3 gap-1 pt-5">
+				<div class="flex flex-col text-sm lg:gap-3 gap-1 pt-5">
 					<a href="/">Our Project</a>
 					<a href="/abouts">About Us</a>
 					<a href="/">Our Service</a>
@@ -33,7 +33,7 @@
 					<a href="/">Volunteer</a>
 				</div>
 			</div>
-			<div class="sm:w-[32%]">
+			<div class="lg:w-[32%]">
 				<div class="text-lg">Contact</div>
 				<div class="flex flex-col text-sm pt-5">
 					<div class="flex flex-row  mb-2">
@@ -104,7 +104,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="bg-[#1A83E3] flex sm:p-0 p-8">
-		<div class="sm:px-16 sm:py-2 text-white text-base sm:text-xs font-bold">© Copyright 2021 by ABC Food</div>
+	<div class="bg-[#1A83E3] flex lg:p-0 p-8">
+		<div class="lg:px-16 lg:py-2 text-white text-base lg:text-xs font-bold">© Copyright 2021 by ABC Food</div>
 	</div>
 </footer>
