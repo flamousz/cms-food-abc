@@ -37,22 +37,22 @@
 {#if show}
 	<section on:click={close} class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 z-50">
 		<div
-			class="mx-auto mt-8 z-10  sm:h-[550px] sm:w-[900px] w-[400px] rounded-xl bg-white "
+			class="mx-auto mt-8 z-10  lg:h-[550px] lg:w-[900px] w-[400px] rounded-xl bg-white "
 			on:click|stopPropagation
 		>
-			<div class="sm:py-8 sm:px-16 flex flex-col ">
+			<div class="lg:py-8 lg:px-16 flex flex-col ">
 				<div
-					class="flex flex-row justify-between font-Montserrat p-3 sm:p-0 sm:text-2xl font-bold text-[#000000B3] sm:mb-5"
+					class="flex flex-row justify-between font-Montserrat p-3 lg:p-0 lg:text-2xl font-bold text-[#000000B3] lg:mb-5"
 				>
-					<div class="sm:w-[20%]  ">LEAVE US A MESSAGE</div>
-					<button class="  text-sm sm:text-5xl text-[#E3211A]" on:click={close}>X</button>
+					<div class="lg:w-[20%]  ">LEAVE US A MESSAGE</div>
+					<button class="  text-sm lg:text-5xl text-[#E3211A]" on:click={close}>X</button>
 				</div>
-				<div class="flex flex-row justify-between items-start px-3 sm:px-0 sm:gap-0 gap-4">
+				<div class="flex flex-row justify-between items-start px-3 lg:px-0 lg:gap-0 gap-4">
 					<div>
 						<img
 							src="image 3.png"
 							alt="green mountain"
-							class="sm:w-[68%] rounded-md object-cover h-[300px] sm:h-auto"
+							class="lg:w-[68%] rounded-md object-cover h-[300px] lg:h-auto"
 						/>
 					</div>
 					<div>
